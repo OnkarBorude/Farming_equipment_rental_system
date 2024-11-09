@@ -1,5 +1,8 @@
 package com.farmars.dto;
 
-public class LoginRequest {
+import org.springframework.stereotype.Component;
 
+@Component
+public class LoginRequest {
+	
 }

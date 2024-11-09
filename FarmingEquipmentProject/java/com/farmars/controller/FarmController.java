@@ -1,5 +1,8 @@
 package com.farmars.controller;
 
-public class FarmController {
+import org.springframework.stereotype.Controller;
 
+@Controller
+public class FarmController {
+	
 }
