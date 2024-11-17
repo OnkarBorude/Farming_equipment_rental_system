@@ -39,61 +39,72 @@ public class Users {
 	
 	@Column
 	private Long mobileNo;
+	
+	public static Users getInstance() {
+		return new Users();
+	}
 
 	public Integer getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public Users setId(Integer id) {
 		this.id = id;
+		return this;
 	}
 
 	public String getFirstName() {
 		return firstName;
 	}
 
-	public void setFirstName(String firstName) {
+	public Users setFirstName(String firstName) {
 		this.firstName = firstName;
+		return this;
 	}
 
 	public String getLastName() {
 		return lastName;
 	}
 
-	public void setLastName(String lastName) {
+	public Users setLastName(String lastName) {
 		this.lastName = lastName;
+		return this;
 	}
 
 	public String getEmail() {
 		return email;
 	}
 
-	public void setEmail(String email) {
+	public Users setEmail(String email) {
 		this.email = email;
+		return this;
 	}
 
 	public String getPassword() {
 		return password;
 	}
 
-	public void setPassword(String password) {
+	public Users setPassword(String password) {
 		this.password = password;
+		return this;
 	}
 
 	public int getPinCode() {
 		return pinCode;
 	}
 
-	public void setPinCode(int pinCode) {
+	public Users setPinCode(int pinCode) {
 		this.pinCode = pinCode;
+		return this;
 	}
 
 	public Long getMobileNo() {
 		return mobileNo;
 	}
 
-	public void setMobileNo(Long mobileNo) {
+	public Users setMobileNo(Long mobileNo) {
 		this.mobileNo = mobileNo;
+		return this;
 	}
 	
 	
